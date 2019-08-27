@@ -19,7 +19,7 @@ The application is reading a `.c` file containing source code written in the C p
 - Suitable comments.
 
 ### Application Specification
- - The preprocess application is reading a `.c` file and is outputting the following to the console:
+*The preprocess application is reading a `.c` file and is outputting the following to the console:*
 
 1. **Number of non-empty lines**
    - Non-empty lines are defined as those that contain at least one character that is not a newline,    space or a tab
@@ -28,7 +28,7 @@ The application is reading a `.c` file containing source code written in the C p
    - A comment is defined as beginning with '//' and ending at the end of that line.
    - Multiline comments are not considered.
   
- - The preprocess application is reading a `.c` file and is outputting modified `.o` file as follows:
+*The preprocess application is reading a `.c` file and is outputting modified `.o` file as follows:*
 
 1. **All comments are removed**
    - All comments in the processed versions are removed. 
