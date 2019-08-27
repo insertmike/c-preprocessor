@@ -55,6 +55,8 @@ Input arg examples: *preprocess -i myprog.c*, *preprocess -i myprog.c -c*
 ### How to run locally
 Build chain: *Microsoft Developer Command Prompt ( VS 2017 )*
 1. Open your *build chain* and navigate to the application folder.
+2. Extract the test files from the *test-files* folder.
 2. Make use of the *makefile* using the target commands.
 3. Run nmake clean to clean the folder after your tests.
 
+*NOTE:* In the *test-files* folder, the files with `.o` extension are the resulted files after running the application.
