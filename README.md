@@ -48,7 +48,7 @@ The application is reading a `.c` file containing source code written in the C p
   
         <img src="https://user-images.githubusercontent.com/45242072/63803780-4ed08100-c91e-11e9-844d-33febef29355.png" alt="app arguments table" >
           
-Input arg examples: *preprocess -i myprog.c*, *preprocess -i myprog.c -c*
+<p style="text-align:center;">Input arg examples: *preprocess -i myprog.c*, *preprocess -i myprog.c -c*</p>
 
 5. **Make file**
   - The makefile include operations to clean cached preprocessed files *(.o)* and to execute the program with the different argument options. 
