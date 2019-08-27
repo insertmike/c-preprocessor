@@ -28,21 +28,22 @@ The preprocess application is reading a `.c` file and is outputting the followin
    - A comment is defined as beginning with '//' and ending at the end of that line.
    - Multiline comments are not considered.
   
-3. **All comments are removed**
+The preprocess application is reading a `.c` file and is outputting modified `.o` file as follows:
+
+1. **All comments are removed**
    - All comments in the processed versions are removed. 
    - Multiline comments are not considered.
   
-4. **Header files are replaced with contents**
+2. **Header files are replaced with contents**
    - All lines that are including a header files are replaced with the entire contents of the file called.
    - It is assumed that the files are located in the same directory
    
-5. **Defines are processed**
+3. **Defines are processed**
    - A line that begins with *#define constant_name value* are processed.
    - The line is removed.
    - Through the rest of the file, wherever *constant name* appears it is removed and replaced with the *value* in the output file.
    
-     
-6. **Application input arguments**
+4. **Application input arguments**
    - The application understands the command line arguments shown in the table below.
   
         <img src="https://user-images.githubusercontent.com/45242072/63803780-4ed08100-c91e-11e9-844d-33febef29355.png" alt="app arguments table" >
