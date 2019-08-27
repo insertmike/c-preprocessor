@@ -50,7 +50,7 @@ The application is reading a `.c` file containing source code written in the C p
           
 Input arg examples: *preprocess -i myprog.c*, *preprocess -i myprog.c -c*
 
-7. **Make file**
+5. **Make file**
   - The makefile include operations to clean cached preprocessed files *(.o)* and to execute the program with the different argument options. 
   
 ### How to run locally
